@@ -15,6 +15,10 @@
 		19076D4B216796E300DFC698 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D4A216796E300DFC698 /* DataServices.swift */; };
 		19076D4F2168C30C00DFC698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19076D4E2168C30B00DFC698 /* GoogleService-Info.plist */; };
 		19076D512168C95600DFC698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19076D502168C95500DFC698 /* Assets.xcassets */; };
+		19076D53216901D800DFC698 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D52216901D800DFC698 /* AuthVC.swift */; };
+		19076D552169021400DFC698 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D542169021400DFC698 /* LoginVC.swift */; };
+		19076D572169026B00DFC698 /* InserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D562169026B00DFC698 /* InserTextField.swift */; };
+		19319B4D21690A15006106F1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B4C21690A15006106F1 /* ShadowView.swift */; };
 		4A8E8059F6A1573926FAAEC0 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,10 @@
 		19076D4A216796E300DFC698 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		19076D4E2168C30B00DFC698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19076D502168C95500DFC698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19076D52216901D800DFC698 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		19076D542169021400DFC698 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		19076D562169026B00DFC698 /* InserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserTextField.swift; sourceTree = "<group>"; };
+		19319B4C21690A15006106F1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793D468AE6F3F04654540E6 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +94,8 @@
 			children = (
 				19076D32216785BF00DFC698 /* FirstViewController.swift */,
 				19076D34216785BF00DFC698 /* SecondViewController.swift */,
+				19076D52216901D800DFC698 /* AuthVC.swift */,
+				19076D542169021400DFC698 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +103,8 @@
 		19076D452167861300DFC698 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19076D562169026B00DFC698 /* InserTextField.swift */,
+				19319B4C21690A15006106F1 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,7 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19076D53216901D800DFC698 /* AuthVC.swift in Sources */,
 				19076D35216785BF00DFC698 /* SecondViewController.swift in Sources */,
+				19076D572169026B00DFC698 /* InserTextField.swift in Sources */,
+				19076D552169021400DFC698 /* LoginVC.swift in Sources */,
+				19319B4D21690A15006106F1 /* ShadowView.swift in Sources */,
 				19076D31216785BF00DFC698 /* AppDelegate.swift in Sources */,
 				19076D33216785BF00DFC698 /* FirstViewController.swift in Sources */,
 				19076D4B216796E300DFC698 /* DataServices.swift in Sources */,
