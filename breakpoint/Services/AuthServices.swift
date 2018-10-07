@@ -14,16 +14,17 @@ class AuthService {
     static let instance = AuthService()
     
     func registerUser(withEmail email: String, andPassword password: String, userCreationComplete: @escaping(_ status: Bool, _ error: Error?) -> ()) {
-        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            guard let user = user else {
+        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+            guard let user = authResult?.user else {
                 userCreationComplete(false, error)
                 return
             }
-            let userData = ["provider": user.user.providerID, "email": user.user.email]
-            DataService.instance.createDBUser(uid: user.user.uid, userData: userData)
+            let userData = ["provider": user.providerID, "email": user.email]
+            DataService.instance.createDBUser(uid: user.uid, userData: userData as Dictionary<String, Any> )
             userCreationComplete(true, nil)
         }
     }
+    
     
     func loginUser(withEmail email: String, andPassword password: String, loginComplete: @escaping(_ status: Bool, _ error: Error?) -> ()) {
         Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
@@ -37,31 +38,15 @@ class AuthService {
     }
 }
 /*
- class AuthService {
- static let instance  = AuthService()
- 
- func registerUser(withEmail email: String, andPassword password: String, userCreationComplete: @escaping(_ status: Bool, _ error: Error?) -> ()) {
- Auth.auth().createUser(withEmail: email, password: password) { (authDataResult, error) in
- guard let authDataResult = authDataResult else {
- userCreationComplete(false, error)
+ func registerUser(withEmail email: String , andPassword password: String , userCreationCompleat: @escaping (_ status: Bool , _ error: Error?) -> ()) {
+ Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+ guard let user = authResult?.user else {
+ userCreationCompleat(false, error)
  return
  }
- 
- let userData = ["provider": authDataResult.user.providerID, "email" : authDataResult.user.email]
- DataService.instance.createDBUser(uid: authDataResult.user.uid, userData: userData)
- userCreationComplete(true, nil)
+ let userData = ["provider" : user.providerID , "email" : user.email ]
+ DataService.instance.createUser(uid: user.uid, userData: userData as Dictionary<String, Any> )
+ userCreationCompleat(true , nil)
  }
  }
- 
- func loginUser(withEmail email: String, andPassword password: String, loginComplete: @escaping(_ status: Bool, _ error: Error?) -> ()) {
- Auth.auth().signIn(withEmail: email, password: password) { (authDataResult, error) in
- guard let authDataResult = authDataResult else {
- loginComplete(false, error)
- return
- }
- loginComplete(true, nil)
- }
- }
- }
- 
  */

@@ -26,6 +26,7 @@
 		19319B5C216A149E006106F1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B5B216A149E006106F1 /* Message.swift */; };
 		19319B5E216A23DA006106F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19319B5D216A23D9006106F1 /* GoogleService-Info.plist */; };
 		19319B60216A2990006106F1 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B5F216A2990006106F1 /* CreateGroupVC.swift */; };
+		19319B62216A9E68006106F1 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B61216A9E68006106F1 /* UserCell.swift */; };
 		4A8E8059F6A1573926FAAEC0 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		19319B5B216A149E006106F1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		19319B5D216A23D9006106F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19319B5F216A2990006106F1 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		19319B61216A9E68006106F1 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793D468AE6F3F04654540E6 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 				19076D562169026B00DFC698 /* InserTextField.swift */,
 				19319B4C21690A15006106F1 /* ShadowView.swift */,
 				19319B58216A12C5006106F1 /* FeedCell.swift */,
+				19319B61216A9E68006106F1 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,7 +184,7 @@
 				19076D29216785BF00DFC698 /* Sources */,
 				19076D2A216785BF00DFC698 /* Frameworks */,
 				19076D2B216785BF00DFC698 /* Resources */,
-				ED4AC43BC51816D39BA5260B /* [CP] Embed Pods Frameworks */,
+				B9AE8C29C551B9F8F191FBDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +261,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED4AC43BC51816D39BA5260B /* [CP] Embed Pods Frameworks */ = {
+		B9AE8C29C551B9F8F191FBDA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,6 +300,7 @@
 				19076D572169026B00DFC698 /* InserTextField.swift in Sources */,
 				19076D552169021400DFC698 /* LoginVC.swift in Sources */,
 				19319B4D21690A15006106F1 /* ShadowView.swift in Sources */,
+				19319B62216A9E68006106F1 /* UserCell.swift in Sources */,
 				19319B60216A2990006106F1 /* CreateGroupVC.swift in Sources */,
 				19076D31216785BF00DFC698 /* AppDelegate.swift in Sources */,
 				19319B532169FA3D006106F1 /* CreatePostVC.swift in Sources */,
