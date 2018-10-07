@@ -23,6 +23,7 @@
 		19319B532169FA3D006106F1 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B522169FA3D006106F1 /* CreatePostVC.swift */; };
 		19319B55216A0358006106F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19319B54216A0358006106F1 /* GoogleService-Info.plist */; };
 		19319B57216A0ABD006106F1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B56216A0ABD006106F1 /* UIViewExt.swift */; };
+		19319B59216A12C5006106F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B58216A12C5006106F1 /* FeedCell.swift */; };
 		4A8E8059F6A1573926FAAEC0 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		19319B522169FA3D006106F1 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		19319B54216A0358006106F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19319B56216A0ABD006106F1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		19319B58216A12C5006106F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793D468AE6F3F04654540E6 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 			children = (
 				19076D562169026B00DFC698 /* InserTextField.swift */,
 				19319B4C21690A15006106F1 /* ShadowView.swift */,
+				19319B58216A12C5006106F1 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19319B57216A0ABD006106F1 /* UIViewExt.swift in Sources */,
+				19319B59216A12C5006106F1 /* FeedCell.swift in Sources */,
 				19319B512169F2DC006106F1 /* MeVC.swift in Sources */,
 				19076D53216901D800DFC698 /* AuthVC.swift in Sources */,
 				19076D35216785BF00DFC698 /* GroupsVC.swift in Sources */,
