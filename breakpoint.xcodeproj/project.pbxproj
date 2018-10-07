@@ -19,6 +19,7 @@
 		19076D552169021400DFC698 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D542169021400DFC698 /* LoginVC.swift */; };
 		19076D572169026B00DFC698 /* InserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D562169026B00DFC698 /* InserTextField.swift */; };
 		19319B4D21690A15006106F1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B4C21690A15006106F1 /* ShadowView.swift */; };
+		19319B4F21690F50006106F1 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B4E21690F50006106F1 /* AuthServices.swift */; };
 		4A8E8059F6A1573926FAAEC0 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		19076D542169021400DFC698 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		19076D562169026B00DFC698 /* InserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserTextField.swift; sourceTree = "<group>"; };
 		19319B4C21690A15006106F1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		19319B4E21690F50006106F1 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793D468AE6F3F04654540E6 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				19076D4A216796E300DFC698 /* DataServices.swift */,
+				19319B4E21690F50006106F1 /* AuthServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				19076D552169021400DFC698 /* LoginVC.swift in Sources */,
 				19319B4D21690A15006106F1 /* ShadowView.swift in Sources */,
 				19076D31216785BF00DFC698 /* AppDelegate.swift in Sources */,
+				19319B4F21690F50006106F1 /* AuthServices.swift in Sources */,
 				19076D33216785BF00DFC698 /* FirstViewController.swift in Sources */,
 				19076D4B216796E300DFC698 /* DataServices.swift in Sources */,
 			);
