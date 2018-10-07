@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		19076D31216785BF00DFC698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D30216785BF00DFC698 /* AppDelegate.swift */; };
-		19076D33216785BF00DFC698 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D32216785BF00DFC698 /* FirstViewController.swift */; };
-		19076D35216785BF00DFC698 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D34216785BF00DFC698 /* SecondViewController.swift */; };
+		19076D33216785BF00DFC698 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D32216785BF00DFC698 /* FeedVC.swift */; };
+		19076D35216785BF00DFC698 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D34216785BF00DFC698 /* GroupsVC.swift */; };
 		19076D38216785BF00DFC698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19076D36216785BF00DFC698 /* Main.storyboard */; };
 		19076D3D216785C300DFC698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19076D3B216785C300DFC698 /* LaunchScreen.storyboard */; };
 		19076D4B216796E300DFC698 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19076D4A216796E300DFC698 /* DataServices.swift */; };
@@ -27,8 +27,8 @@
 		0C8F272FD0CF8266DA0C74CD /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		19076D2D216785BF00DFC698 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19076D30216785BF00DFC698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19076D32216785BF00DFC698 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		19076D34216785BF00DFC698 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19076D32216785BF00DFC698 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		19076D34216785BF00DFC698 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		19076D37216785BF00DFC698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19076D3C216785C300DFC698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19076D3E216785C300DFC698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		19076D44216785FC00DFC698 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				19076D32216785BF00DFC698 /* FirstViewController.swift */,
-				19076D34216785BF00DFC698 /* SecondViewController.swift */,
+				19076D32216785BF00DFC698 /* FeedVC.swift */,
+				19076D34216785BF00DFC698 /* GroupsVC.swift */,
 				19076D52216901D800DFC698 /* AuthVC.swift */,
 				19076D542169021400DFC698 /* LoginVC.swift */,
 			);
@@ -264,13 +264,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				19076D53216901D800DFC698 /* AuthVC.swift in Sources */,
-				19076D35216785BF00DFC698 /* SecondViewController.swift in Sources */,
+				19076D35216785BF00DFC698 /* GroupsVC.swift in Sources */,
 				19076D572169026B00DFC698 /* InserTextField.swift in Sources */,
 				19076D552169021400DFC698 /* LoginVC.swift in Sources */,
 				19319B4D21690A15006106F1 /* ShadowView.swift in Sources */,
 				19076D31216785BF00DFC698 /* AppDelegate.swift in Sources */,
 				19319B4F21690F50006106F1 /* AuthServices.swift in Sources */,
-				19076D33216785BF00DFC698 /* FirstViewController.swift in Sources */,
+				19076D33216785BF00DFC698 /* FeedVC.swift in Sources */,
 				19076D4B216796E300DFC698 /* DataServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
