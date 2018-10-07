@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1015171711826-qdi9ec1c6oaue6t89od2fr5aand4c205.apps.googleusercontent.com</string>
+	<string>655049450571-cm4151v0648lqmqq7tp0loflflno3ver.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1015171711826-qdi9ec1c6oaue6t89od2fr5aand4c205</string>
+	<string>com.googleusercontent.apps.655049450571-cm4151v0648lqmqq7tp0loflflno3ver</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAAaAqaYxsiEJ8M2jCxJaYXSpfHUGPG2C4</string>
+	<string>AIzaSyDOmvtRbKkFb0ogdHdeRr9yNLByPs8ZFUI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1015171711826</string>
+	<string>655049450571</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.shinerdes.breakpoint</string>
 	<key>PROJECT_ID</key>
-	<string>breakpoint-5f256</string>
+	<string>breakpoint-9deb7</string>
 	<key>STORAGE_BUCKET</key>
-	<string>breakpoint-5f256.appspot.com</string>
+	<string>breakpoint-9deb7.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1015171711826:ios:320e71c70576901b</string>
+	<string>1:655049450571:ios:320e71c70576901b</string>
 	<key>DATABASE_URL</key>
-	<string>https://breakpoint-5f256.firebaseio.com</string>
+	<string>https://breakpoint-9deb7.firebaseio.com</string>
 </dict>
 </plist>
