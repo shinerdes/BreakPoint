@@ -39,6 +39,64 @@ PODS:
     - GoogleUtilities/Network (~> 5.2)
     - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
+  - GoogleToolboxForMac (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - GoogleToolboxForMac/GeometryUtils (= 2.1.4)
+    - GoogleToolboxForMac/KVO (= 2.1.4)
+    - GoogleToolboxForMac/Logger (= 2.1.4)
+    - "GoogleToolboxForMac/NSData+zlib (= 2.1.4)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.4)"
+    - "GoogleToolboxForMac/NSFileHandle+UniqueName (= 2.1.4)"
+    - "GoogleToolboxForMac/NSScanner+JSON (= 2.1.4)"
+    - "GoogleToolboxForMac/NSString+HTML (= 2.1.4)"
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+    - "GoogleToolboxForMac/NSString+XML (= 2.1.4)"
+    - "GoogleToolboxForMac/NSThread+Blocks (= 2.1.4)"
+    - GoogleToolboxForMac/Regex (= 2.1.4)
+    - GoogleToolboxForMac/StringEncoding (= 2.1.4)
+    - GoogleToolboxForMac/SystemVersion (= 2.1.4)
+    - GoogleToolboxForMac/URLBuilder (= 2.1.4)
+  - GoogleToolboxForMac/Core (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/GeometryUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/KVO (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSFileHandle+UniqueName (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSScanner+JSON (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSString+HTML (2.1.4)":
+    - GoogleToolboxForMac/Core (= 2.1.4)
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - "GoogleToolboxForMac/NSString+XML (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSThread+Blocks (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Regex (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/StringEncoding (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/SystemVersion (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/URLBuilder (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.4)"
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
   - GoogleUtilities/AppDelegateSwizzler (5.2.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -67,6 +125,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - GoogleToolboxForMac
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -78,6 +137,7 @@ SPEC REPOS:
     - FirebaseDatabase
     - FirebaseInstanceID
     - GoogleAppMeasurement
+    - GoogleToolboxForMac
     - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
@@ -92,11 +152,12 @@ SPEC CHECKSUMS:
   FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
   FirebaseInstanceID: ea5af6920d0a4a29b40459d055bebe4a6c1333c4
   GoogleAppMeasurement: fc4a4c3fe0144db9313cbf443ffe62e6b1d6268c
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GoogleUtilities: 6f681e27050c5e130325e89fa0316dfca826f954
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 9b1ef6c3137ff61586d9a288cdf9bfeaa9492da6
+PODFILE CHECKSUM: 7152354b7327cf9da46b5fe1b253675c4e60fedc
 
 COCOAPODS: 1.5.2

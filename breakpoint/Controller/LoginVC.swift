@@ -38,6 +38,7 @@ class LoginVC: UIViewController {
                         })
                     } else {
                         print(String(describing: registrationError?.localizedDescription))
+                        print("이게 왜 안될까요?")
                     }
                 })
             })

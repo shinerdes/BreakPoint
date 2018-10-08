@@ -18,7 +18,8 @@ class GroupFeedVC: UIViewController {
     @IBOutlet weak var sendBtn: UIButton!
     
     func initGroupData(forGroup group: Group) {
-        
+        self.group = group
+
     }
     
     var group: Group?
@@ -58,8 +59,9 @@ class GroupFeedVC: UIViewController {
     }
 
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+            dismissDetail()
     }
+
     @IBAction func sendBtnWasPressed(_ sender: Any) {
         if messageTextField.text != "" {
             messageTextField.isEnabled = false
