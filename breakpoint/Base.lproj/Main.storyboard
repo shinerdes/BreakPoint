@@ -370,7 +370,7 @@
         <!--Group FeedVC-->
         <scene sceneID="HXm-tv-U0Z">
             <objects>
-                <viewController id="2rk-m9-nRs" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="2rk-m9-nRs" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bg8-j8-Okc"/>
                         <viewControllerLayoutGuide type="bottom" id="Wne-DZ-M9V"/>
@@ -382,7 +382,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAp-iQ-utH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_grouptitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep5-zT-nI3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_grouptitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep5-zT-nI3">
                                         <rect key="frame" x="88" y="35" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="501-KX-dT1"/>
@@ -392,7 +392,7 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxZ-LO-hbM">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxZ-LO-hbM">
                                         <rect key="frame" x="20" y="34.5" width="12" height="22"/>
                                         <state key="normal" image="backIcon"/>
                                         <connections>
@@ -403,6 +403,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="xxZ-LO-hbM" firstAttribute="leading" secondItem="YAp-iQ-utH" secondAttribute="leading" constant="20" id="10S-1H-13k"/>
+                                    <constraint firstItem="xxZ-LO-hbM" firstAttribute="top" secondItem="YAp-iQ-utH" secondAttribute="top" constant="34.5" id="3j6-hQ-nk6"/>
                                     <constraint firstItem="Ep5-zT-nI3" firstAttribute="centerX" secondItem="YAp-iQ-utH" secondAttribute="centerX" id="4v3-MW-mOI"/>
                                     <constraint firstAttribute="height" constant="70" id="nsh-tO-wkc"/>
                                     <constraint firstItem="Ep5-zT-nI3" firstAttribute="centerY" secondItem="xxZ-LO-hbM" secondAttribute="centerY" id="p2K-KV-Xut"/>
