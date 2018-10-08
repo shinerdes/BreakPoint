@@ -29,6 +29,8 @@
 		19319B62216A9E68006106F1 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B61216A9E68006106F1 /* UserCell.swift */; };
 		19319B64216B62A1006106F1 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B63216B62A1006106F1 /* GroupCell.swift */; };
 		19319B66216B67E0006106F1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B65216B67DF006106F1 /* Group.swift */; };
+		19319B68216B74A0006106F1 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B67216B74A0006106F1 /* GroupFeedCell.swift */; };
+		19319B6A216B7541006106F1 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19319B69216B7541006106F1 /* GroupFeedVC.swift */; };
 		4A8E8059F6A1573926FAAEC0 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		19319B61216A9E68006106F1 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		19319B63216B62A1006106F1 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		19319B65216B67DF006106F1 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		19319B67216B74A0006106F1 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		19319B69216B7541006106F1 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		8508F69A6AB69B75720EBE46 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793D468AE6F3F04654540E6 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +124,7 @@
 				19319B502169F2DC006106F1 /* MeVC.swift */,
 				19319B522169FA3D006106F1 /* CreatePostVC.swift */,
 				19319B5F216A2990006106F1 /* CreateGroupVC.swift */,
+				19319B69216B7541006106F1 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				19319B58216A12C5006106F1 /* FeedCell.swift */,
 				19319B61216A9E68006106F1 /* UserCell.swift */,
 				19319B63216B62A1006106F1 /* GroupCell.swift */,
+				19319B67216B74A0006106F1 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 				19319B64216B62A1006106F1 /* GroupCell.swift in Sources */,
 				19076D53216901D800DFC698 /* AuthVC.swift in Sources */,
 				19076D35216785BF00DFC698 /* GroupsVC.swift in Sources */,
+				19319B6A216B7541006106F1 /* GroupFeedVC.swift in Sources */,
+				19319B68216B74A0006106F1 /* GroupFeedCell.swift in Sources */,
 				19076D572169026B00DFC698 /* InserTextField.swift in Sources */,
 				19076D552169021400DFC698 /* LoginVC.swift in Sources */,
 				19319B4D21690A15006106F1 /* ShadowView.swift in Sources */,
