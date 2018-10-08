@@ -101,21 +101,7 @@ class DataService {
             handler(emailArray)
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
     

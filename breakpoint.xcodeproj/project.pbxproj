@@ -95,7 +95,6 @@
 				19076D47216787CB00DFC698 /* Services */,
 				19076D46216786CB00DFC698 /* Extension */,
 				19076D452167861300DFC698 /* View */,
-				19076D44216785FC00DFC698 /* Controller */,
 				19076D30216785BF00DFC698 /* AppDelegate.swift */,
 				19076D36216785BF00DFC698 /* Main.storyboard */,
 				19076D3B216785C300DFC698 /* LaunchScreen.storyboard */,
@@ -127,6 +126,7 @@
 				19319B4C21690A15006106F1 /* ShadowView.swift */,
 				19319B58216A12C5006106F1 /* FeedCell.swift */,
 				19319B61216A9E68006106F1 /* UserCell.swift */,
+				19076D44216785FC00DFC698 /* Controller */,
 			);
 			path = View;
 			sourceTree = "<group>";
